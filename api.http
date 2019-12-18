@@ -1,0 +1,16 @@
+GET http://localhost:8080/last
+Accept: application/json
+
+###
+GET http://localhost:8080/last/2
+Accept: application/json
+
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "body": "Hey!"
+}
+
+###
